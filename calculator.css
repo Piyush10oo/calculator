@@ -18,14 +18,14 @@ input[type="text"]{
 	width: 80vw;
 	margin-top: 5%;
 	margin-left:10%;
-	border: 7px solid #5339de;
-	background:linear-gradient(red,orange);
+	border: 7px solid gray;
+	background:linear-gradient(rgba(95, 29, 29, 0.212),rgb(77, 73, 67));
 }
 
 #press_button{
 	margin-left:45%;
 	margin-top:32%; 
-	background-color:blue;
+	background-color:gray;
 	font-family:fantasy;
 	color: white;
 	font-size: 1.3em;
@@ -36,6 +36,7 @@ input[type="text"]{
 }
 
 #main_calculator:target{
+
 	visibility: visible;
 	#closebox{
 		visibility: hidden;
@@ -51,7 +52,7 @@ input[type="text"]{
 	height: 40vh;
 	margin-left:10%;
 	width: 80vw;
-	border: 7px solid #5339de;
+	border: 5px solid gray;
 	box-shadow: 20px -20px blur gray;
 	background-color: var(--display_background);
 }
@@ -64,12 +65,13 @@ input[type="text"]{
 }
 
 #keyboard{
+	background-color: silver;
 	display: flex;
 	flex-direction: row;
 	margin-left:10%;
 	height: 40vh;
 	width: 80vw;
-	border: 7px solid #5339de;
+	border: 7px solid gr;ay
 }
 
 
